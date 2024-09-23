@@ -1,0 +1,54 @@
+.some-text-1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.some-text-2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: line-through;
+}
+
+.some-text-3{ 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.some-text-4{
+    font-family: serif;
+    text-decoration: overline wavy green;
+    color: aquamarine;
+    word-spacing: 30px;
+}
+
+.some-text-5{
+    font-family: serif;
+    word-spacing: 5px;
+    text-decoration: underline double red;
+
+}
+
+.some-text-6{
+    font-family: serif;
+    color: blueviolet;
+    text-decoration: underline dotted red;
+
+}
+.some-text-7{
+    font-family: serif;
+    text-decoration: inherit;
+}
