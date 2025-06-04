@@ -1,0 +1,226 @@
+:root {
+    --general-text: #000;
+    --general-bg: #fff;
+    --accent-color: #dce5e2;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    second-family: "Readex Pro", sans-serif;
+    line-height: 1.2;
+    color: var(--general-text);
+    background: var(--general-bg);
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1295px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.button {}
+
+/* --------------------------------------------- */
+
+.header__top {
+    padding: 31px 0 32px;
+}
+
+.header__top-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item-1 {
+    margin-right: 33px;
+}
+
+
+.nav__img {}
+
+.nav__item-3 {
+    margin: 0 44px 0 34px;
+}
+
+.icons__search {
+    margin-right: 13px;
+
+}
+
+.nav__link {}
+
+.cart {}
+
+.cart__image {}
+
+.cart__num {}
+
+.cap {
+    padding: 28px 73px 0;
+
+}
+
+.cap__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #DCE5E2;
+    width: 1294px;
+    height: 550px;
+    border-radius: 25px;
+
+}
+
+.cap__content {
+    margin-left: 56px;
+}
+
+.cap__title {
+
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 1.2;
+    color: var(--general-text);
+    margin-bottom: 19px;
+
+
+}
+
+.cap__text {
+    margin-bottom: 30px;
+}
+
+.cap__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    border-radius: 200px;
+    width: 170px;
+    height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #000;
+}
+
+
+.main__about {}
+
+.about {}
+
+.container {}
+
+.about__inner {}
+
+.about__info {}
+
+.about__title {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+
+    line-height: 125%;
+    text-align: center;
+    color: #000;
+}
+
+.title {}
+
+.about__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: ;
+
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    color: #000;
+
+}
+
+.carde-1 {}
+
+.cards-1__inner {}
+
+
+
+.gallery-1 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gallery-1__item {
+    position: relative;
+    width: 639px;
+    height: 472px;
+    box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);
+
+}
+
+.gallery-1__content {
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    width: 555px;
+    height: 472px;
+}
+
+.gallery__img-1 {
+    width: 500px;
+    height: 467px;
+    position: absolute;
+    top: -20px;
+    z-index: ;
+}
+
+.gallery__title {
+    width: 555px;
+    height: 95px;
+    position: absolute;
+    bottom: 50px;
+}
+
+
+.gallery__img-2 {
+    width: 405px;
+    height: 367px;
+}
+
+.gallery__img-3 {
+    width: 467px;
+    height: 425px;
+}
+
+.gallery__img-4 {
+    width: 381px;
+    height: 689px;
+}
